@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Mobile Application{% endblock title %}
+
+{% block content %}
+<div class="page-section how-section p-4 m-1">
+    {% for display in data %}
+    <div class="row">
+        <div class="col-md-4 how-img m-auto">
+            <img src="/static/img/services/software_development/mobile.jpg" class=" img-fluid" alt=""/>
+        </div>
+        <div class="col-md-7 px-5 py-4 how-section-text">
+            <h4>{{display.heading}}</h4>
+            <div class='font-poppins'>
+                <p class="text-muted ">{{display.description | safe}}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock content %}

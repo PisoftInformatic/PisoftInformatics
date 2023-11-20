@@ -1,0 +1,293 @@
+@media only screen and (max-width: 600px) {
+ 
+    #carouselExampleInterval{
+        width: 90% !important;
+        height: 100% !important;
+    }
+    .navbar{
+        margin-top: 1.5rem !important;
+    }
+    .hero-carousel h1 {
+        font-size: 1.2rem !important;
+    }
+    .owl-dots{
+        visibility: hidden;
+    }
+    .image-gallery{
+        column-count: 1 !important;
+    }
+
+
+  }
+
+@media only screen and (min-width: 600px ) and (max-width: 800px){
+    .image-gallery{
+        column-count: 2 !important
+    }
+}
+
+
+
+.service-img{
+    height: 90px;
+    width: 90px;
+    padding-left: 1.2rem;
+    padding-top: 1.3rem;
+    margin: auto;
+}
+
+
+.hover-shadow{
+    transition: all 0.2s ease-in;
+    border-radius: 23px !important; 
+    /* background-color: #e4e6dcd2; */
+    background-color: #fbf9f6;
+     /* background-image: linear-gradient(177deg, #f7f8f3d2 13%, rgb(209, 255, 255) 74%); */
+     /* background-color: rgb(230, 234, 241); */
+    color: rgb(0, 0, 0);
+    /* padding: 1.1rem !important; */
+    /* height: 1.5rem; */
+    box-shadow: #8d9196 5px 1px 10px; 
+    
+} 
+
+.hover-shadow:hover{
+    box-shadow: rgb(139, 138, 138) 12px 5px 20px;
+
+}
+
+
+
+.card{
+    border: none !important;
+}
+
+.card:hover{
+    border: none;
+}
+
+.card-text{
+    font-family: 'Poppins', 'arial' !important;
+}
+
+.my-services{
+    padding: 0px;
+    font-size: 12.4px;
+   
+}
+
+.input-item{
+    min-width: 350px;
+}
+
+
+.how-section1{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.how-section-text{
+    font-size: 1.1rem;
+}
+
+.how-img 
+{
+    text-align: center;
+}
+
+.how-img img{
+    width: 80%;
+}
+
+.logo-cv{
+    color: rgb(47, 47, 109);
+}
+.logo-cy{
+    color: rgb(196, 110, 53);
+}
+
+
+.custom-image-shadow{
+    box-shadow: dodgerblue 12px 12px 12px;
+}
+
+
+.custom-bg{
+    background-color: rgb(217, 221, 226) !important;
+}
+
+.bg-custom-lb{
+    background-color: #e0eaf3 !important;
+}
+
+
+/* 
+navbar
+*/
+ .nav-item{
+    padding: 0 !important; 
+}
+.nav-link{
+    padding: .7rem !important;
+}
+
+/* 
+carousel slider 
+*/
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: rgb(202, 210, 219);
+    background-color: rgb(143, 174, 221);
+    background-size: 50%, 50%;
+    border-radius: 50%;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    border: none  !important;
+    background-color: transparent !important;
+}
+
+
+
+.hero-carousel h1 {
+    font-size: 2.2rem ;
+}
+
+
+
+.t09{
+    font-size: 0.9rem;
+}
+
+
+
+
+.c-h-b{
+    background-color: #fefefe !important;
+    background-image: linear-gradient(315deg, #fefefe 0%, #d4dceedc  74%) !important;
+    
+    box-shadow: #d0d2d6 1px 5px 16px 8px !important;
+}
+
+.font-poppins{
+    font-family: 'Poppins';
+    text-align: justify;
+}
+.how-section-text>p{
+    font-family: 'Poppins';
+}
+
+
+.cbg-ly{
+background-color: #f1dfdf7d !important;
+}
+
+.custom-bg-color{
+    background-color: #fefefe !important;
+    background-image: linear-gradient(315deg, #fefefe 0%, #d4dceedc  74%) !important;
+    
+    box-shadow: #d4dcee9e  1px 5px 16px 8px !important;
+}
+
+
+/* 
+Index technologies
+*/
+.technologies{
+    /* background-color: rgb(205, 209, 212) !important; */
+}
+
+
+/* 
+Footer
+*/
+.page-footer{
+    font-size: 0.8rem;
+}
+.footer-menu > li{
+    margin: 0px !important;
+    line-height: 1.5rem;
+}
+
+.fc{
+    /* color: rgb(87, 87, 87) !important; */
+    color: white  !important;
+}
+
+.footer-bg-color{
+    /* background-color: #000000 !important; */
+    background-image: linear-gradient(315deg, #000000ec 50%, #1b1c1fdc  74%) !important
+    /* background-color: rgb(206, 211, 243) !important; */
+}
+
+.footer-copyright{
+    background-image: linear-gradient(300deg, #646b8a, #7178a0);
+}
+
+
+
+/* 
+Placed Trainee
+*/
+
+.trainee-card{
+    border: 1px solid rgb(202, 202, 202) !important;
+    min-height: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+
+
+
+
+/* Image Hover  */
+.custom-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #c7c2e2b0;
+  }
+  
+  .custom-container:hover:hover .custom-overlay {
+    opacity: 1;
+    
+  }
+  
+  .custom-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+ 
+
+  /* 
+  footer
+  */
+.page-footer{
+    background-color: #272a39cc !important;
+}
+
+
+.nav-items:hover{
+    cursor: pointer !important;
+}
+
+
+

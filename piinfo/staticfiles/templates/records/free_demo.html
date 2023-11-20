@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="page-section free-demo-bg d-flex justify-content-center align-items-center p-3">
+    <div class="form-custom free-demo-sbg p-5 m-0 shadow  rounded-custom" >
+        <div class="justify-content-center">
+            <h2 class="h2 text-center p-3">
+                Try a free Demo
+            </h2>
+        </div>
+        <form action="" method="post">
+            {% csrf_token %}
+            <div class="input-container">
+                <!-- <label for="company">Company Name</label> -->
+                <input type="text" class="font-poppins form-control" placeholder="Company Name" name="company", id="company">
+            </div>
+            <div class="input-container">
+                <input type="text" class="font-poppins form-control" placeholder="Phone Number" name="phone", id="phone">
+            </div>
+            <div class="input-container">
+                <input type="text" class="font-poppins form-control" placeholder="Company Email" name="email", id="phone">
+            </div>
+            <div class="input-container font-poppins">
+                <!-- <label for="module">Modules</label> -->
+                <select name="module" class="form-control" name="module" id="module" >
+                    <option >Select Business Module</option>
+                    {% for data in data %}
+                    <option value="{{data.module_name}}">{{data.module_name}}</option>
+                    {% endfor %}
+
+                   <!-- <option >Select Business Module</option>
+                    <option value="">Value 3</option>
+                   <option value="">Valuw 2</option>
+                   <option value="">Value 4</option> -->
+                </select>
+            </div>
+            <div class="input-container">
+                <button type="submit" class="form-control btn free-demo-bg font-poppins text-center">Proceed</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+{% endblock content %}
+
+

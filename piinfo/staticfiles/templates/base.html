@@ -1,0 +1,269 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+  
+
+  <title>{% block title %}{% endblock title %}</title>
+
+
+  <link rel="stylesheet" href="/static/css/bootstrap.css">
+  
+  <link rel="stylesheet" href="/static/css/maicons.css">
+
+  <link rel="stylesheet" href="/static/vendor/animate/animate.css">
+
+  <link rel="stylesheet" href="/static/vendor/owl-carousel/css/owl.carousel.css">
+
+  <link rel="stylesheet" href="/static/vendor/fancybox/css/jquery.fancybox.css">
+
+  <link rel="stylesheet" href="/static/css/theme.css">
+  
+  <link rel="stylesheet" href="/static/css/my_custom.css">
+</head>
+
+<body>
+
+  <!-- Back to top button -->
+  <div class="back-to-top"></div>
+
+  <header>
+    <div class="top-bar">
+      <div class="container d-flex flex-wrap align-items-center justify-content-between">
+            <div class="m-1">
+              <span class="mai-mail fg-primary"></span> <a href="mailto:contact@mail.com">contact@mail.com</a>
+              <span class="mai-call fg-primary"></span> <a href="tel:+918288029930 ">+918288029930</a>
+            </div>  
+         
+            <div class="social-mini-button d-flex flex-wrap align-items-center justify-content-between">
+              <a href="https://www.facebook.com/pisoftinformatics/"><span class="mai-logo-facebook-f"></span></a>       
+              <a href="{% url "henquiry" %}"><span class="text-primary">HOPE ENQUIRY</span></a>
+              <a href="{% url "registration" %}"><span class="text-primary">Registration</span></a>
+            </div> 
+       
+        
+      </div> <!-- .container -->
+    </div> <!-- .top-bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom-lb p-0">
+      <div class="container  w-100 m-0">
+        <a href="/" class="navbar-brand">  
+        <img src="{% static "img/logo.png" %}" height="43px" alt="" srcset="">
+        </a>
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarContent">
+          <ul class="navbar-nav ml-auto pt-3 pt-lg-0">
+            <li class="nav-item active">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+          
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ERP Solutions
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{% url 'erp_solutions:education' %}">Education</a>
+                <a class="dropdown-item" href="{% url 'erp_solutions:finance' %}">Finance</a>
+                <a class="dropdown-item" href="{% url 'erp_solutions:medical_and_healthcare' %}">Medical And Health Care</a>
+                <a class="dropdown-item" href="{% url 'erp_solutions:automobile'  %}">Automobile</a>
+                <a class="dropdown-item" href="{% url 'erp_solutions:tours_and_travels'  %}">Tours and Travels</a>
+                <a class="dropdown-item" href="{% url 'erp_solutions:services'  %}">Services</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Portals
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{% url 'elive_today' %}">Elive Today</a>
+                <a class="dropdown-item" href="{% url 'class_ikart' %}">Class iKart</a>
+                <a class="dropdown-item" href="{% url 'chandigarh_web' %}">Chandigarh Web</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Software Development
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{% url 'web_applications' %}">Web Applications</a>
+                <a class="dropdown-item" href="{% url 'mobile_applications' %}">Mobile Application</a>
+                <a class="dropdown-item" href="{% url 'desktop_applications' %}">Desktop Application</a>
+              </div>
+            </li>
+
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Web Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{% url 'graphic_design' %}">Graphic designing</a>
+                <a class="dropdown-item" href="{% url 'web_design' %}">Web Design</a>
+                <a class="dropdown-item" href="{% url 'domain_register' %}">Domain Registration</a>
+                <a class="dropdown-item" href="{% url 'web_hosting' %}">Web Hosting</a>
+                <a class="dropdown-item" href="{% url 'web_marketing' %}">Web Marketing</a>
+              </div>
+            </li>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Career and InternShip
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{% url 'career_with_us' %}">Career With Us</a>
+                <a class="dropdown-item" href="{% url 'trainee_placement' %}">Trainee Placement</a>
+                <a class="dropdown-item" href="{% url 'hope_program' %}">HOPE Program</a>
+                <a class="dropdown-item" href="{% url 'six_weeks_intern' %}">6 weeks internship</a>
+                <a class="dropdown-item" href="{% url 'tech_discovery' %}">Tech Discovery</a>
+              </div>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a href="{% url "bossapp:gallery" %}" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url "bossapp:portfolio" %}" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url "bossapp:training" %}" class="nav-link">Training</a>
+            </li>
+        </ul>
+        </div>
+      </div> <!-- .container -->
+    </nav> <!-- .navbar -->
+
+   
+  </header>
+
+
+
+   <!-- Page Content Here -->
+   {% block content %}
+   
+   
+   {% endblock content %}
+   
+   
+   
+   
+   <!-- footer  Here -->
+  
+  <footer class="page-footer p-0 m-0 footer-bg-color ">
+    <div class="container-fluid fc px-4 py-2 mx-1">
+      
+      <div class="row container-fluid align-items-center justify-content-between">
+         
+     {% comment %} <div class="col-lg-2 py-2 px-2 d-flex justify-content-center  align-items-center">
+          <img src="{% static "img/logo.png" %}" height='34px' alt="" srcset="">
+        </div>    {% endcomment %}
+
+        <div class="col-lg-3 py-2 mx-1" style='min-width:450px;'>
+          <h5 class="my-1 fc text-dark h3">Contact Information</h5>
+          <p class="my-1 fc font-poppins">Plot No. F - 468, Industrial Focal Point, Phase 8 - B, near Ajit Samachar, Mohali, Punjab, India.</p>
+          <p class="my-1 fc font-poppins">Email: example@mail.com</p>
+          <p class="my-1 fc font-poppins">Phone: +91 8288029930</p>
+        </div>
+
+
+<!--  -->
+<div class="d-flex flex-wrap justify-content-between">
+  <!-- <div class="container text-center">
+    <h3 class="h4">
+      Quick Link
+    </h3>
+  </div> -->
+        <div class="py-2 mx-4">
+          <h5 class="my-1 fc font-poppins text-dark h4">Quick Links</h5>
+          <ul class="footer-menu font-poppins">
+            <li><a class="my-1 fc" href="{% url "bossapp:index" %}">Home</a></li>
+            <li><a class="my-1 fc" href="{% url "apply_job" %}">Apply for Job</a></li>
+            <li><a class="my-1 fc" href="{% url "contact" %}">Contact Us</a></li>
+            <li><a class="my-1 fc" href="{% url "free_demo" %}">Free ERP Demo</a></li>
+            <li><a class="my-1 fc" href="{% url "module" %}"> Module</a></li>
+          </ul> 
+        </div>
+        <div class="py-2 mx-4">
+          <h5 class="my-1 fc font-poppins text-dark h4">PisoftERP</h5>
+          <ul class="footer-menu font-poppins">
+            <li><a class="my-1 fc" href="{% url "erp_solutions:education" %}">Education</a></li>
+            <li><a class="my-1 fc" href="{% url "erp_solutions:tours_and_travels" %}">Tours and Travels</a></li>
+            <li><a class="my-1 fc" href="{% url "erp_solutions:finance" %}">Finance</a></li>
+          </ul> 
+        </div>
+        
+        <div class="py-2 mx-4">
+          <h5 class="my-1 fc font-poppins text-dark h4">Portals</h5>
+          <ul class="footer-menu font-poppins">
+            <li><a class="my-1 fc" href="{% url "elive_today" %}">Elive Today</a></li>
+            <li><a class="my-1 fc" href="{% url "class_ikart" %}">Classikart</a></li>
+            <li><a class="my-1 fc" href="{% url "chandigarh_web" %}">Chandigarh Web</a></li>
+          </ul> 
+        </div>
+
+        <div class="py-2 mx-4 ">
+          <h5 class="my-1 text-dark font-poppins fc h4">Web services</h5>
+          <ul class="footer-menu font-poppins">
+            <li><a class="my-1 fc" href="{% url "web_design" %}">Web Desiging</a></li>
+            {% comment %} <li><a class="my-1 fc" href="{% url "web_marketing" %}">Web Marketing</a></li>
+            <li><a class="my-1 fc" href="{% url "web_hosting" %}">Web Hosting</a></li> {% endcomment %}
+            <li><a class="my-1 fc" href="{% url "domain_register" %}">Domain Registeration</a></li>
+            <li><a  class="my-1 fc" href="{% url "graphic_design" %}">Graphic Desiging</a></li>
+          </ul> 
+        </div>
+       
+      </div> 
+        <!--  -->
+
+
+      </div>
+    </div>
+      <div class="row m-0 container-fluid footer-copyright p-0">
+        <div class="col-md-6 p-3 font-poppins">
+          <p class="m-0 text-center">© Pisoft Informatics Pvt Ltd. All Rights Reserved.</p>
+        </div>
+        <div class="col-md-6 text-right p-2">
+          <div class="sosmed-button text-center">
+            <a href="#"><span class="mai-logo-facebook-f"></span></a>
+            <a href="#"><span class="mai-logo-twitter"></span></a>
+            <a href="#"><span class="mai-logo-youtube"></span></a>
+            <a href="#"><span class="mai-logo-linkedin"></span></a>
+          </div>
+        </div>
+      </div>
+    
+  </footer>
+
+
+<script src="{% static "/js/jquery-3.5.1.min.js" %}"></script>
+
+<script src="{% static "/js/bootstrap.bundle.min.js" %}"></script>
+<script src="{% static "/js/bootstrap.bundle.min.js.map" %}"></script>
+<script src="{% static "/vendor/owl-carousel/js/owl.carousel.min.js" %}"></script>
+<script src="{% static "/vendor/wow/wow.min.js" %}"></script>
+<script src="{% static "/vendor/fancybox/js/jquery.fancybox.min.js" %}"></script>
+<script src="{% static "/vendor/isotope/isotope.pkgd.min.js" %}"></script>
+<script src="{% static "/js/theme.js" %}"></script>  
+<script src="{% static "/js/custom_js.js" %}"></script>  
+
+
+{% comment %} carousel {% endcomment %}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"  crossorigin="anonymous"></script>
+
+
+</body>
+</html>

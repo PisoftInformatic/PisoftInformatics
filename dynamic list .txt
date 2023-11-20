@@ -1,0 +1,20 @@
+<div class="page-section">
+  <ul class="tree">
+    {% for directory in data %}
+        <li>
+            <input type="checkbox" id="dir_{{ directory.id }}">
+            <label for="dir_{{ directory.id }}">{{ directory.name }}</label>
+            {% if directory.directory_set.all %}
+                <ul class="tree">
+                    {% for subdir in directory.directory_set.all %}
+                        <li>
+                            <input type="checkbox" id="dir_{{ subdir.id }}">
+                            <label for="dir_{{ subdir.id }}">{{ subdir.name }}</label>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
+</div>

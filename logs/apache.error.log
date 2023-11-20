@@ -1,0 +1,320 @@
+[Mon Oct 30 17:15:27.103621 2023] [wsgi:error] [pid 19844:tid 1224] [client 127.0.0.1:58549] Not Found: /favicon.ico\r, referer: http://127.0.0.1:90/
+[Mon Oct 30 17:30:56.209648 2023] [wsgi:error] [pid 23180:tid 1196] [client ::1:59706] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Mon Oct 30 17:46:15.966180 2023] [authz_core:error] [pid 22244:tid 1268] [client ::1:61668] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:15.974180 2023] [authz_core:error] [pid 22244:tid 1268] [client ::1:61668] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:15.974180 2023] [authz_core:error] [pid 22244:tid 1248] [client ::1:61671] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:15.974180 2023] [authz_core:error] [pid 22244:tid 1256] [client ::1:61670] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:15.974180 2023] [authz_core:error] [pid 22244:tid 1240] [client ::1:61672] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:15.974180 2023] [authz_core:error] [pid 22244:tid 1232] [client ::1:61673] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:15.995180 2023] [authz_core:error] [pid 22244:tid 1240] [client ::1:61672] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:15.995180 2023] [authz_core:error] [pid 22244:tid 1248] [client ::1:61671] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:15.995180 2023] [authz_core:error] [pid 22244:tid 1256] [client ::1:61670] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:15.996178 2023] [authz_core:error] [pid 22244:tid 1268] [client ::1:61668] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:15.996178 2023] [authz_core:error] [pid 22244:tid 1232] [client ::1:61673] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:16.001187 2023] [authz_core:error] [pid 22244:tid 1268] [client ::1:61668] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:16.001187 2023] [authz_core:error] [pid 22244:tid 1232] [client ::1:61673] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:46:16.039209 2023] [authz_core:error] [pid 22244:tid 1264] [client ::1:61669] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/admin/auth/user/
+[Mon Oct 30 17:47:24.510187 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.517178 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.524179 2023] [authz_core:error] [pid 7972:tid 1224] [client ::1:61732] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.527219 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.528179 2023] [authz_core:error] [pid 7972:tid 1220] [client ::1:61733] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.528179 2023] [authz_core:error] [pid 7972:tid 1200] [client ::1:61736] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.530178 2023] [authz_core:error] [pid 7972:tid 1216] [client ::1:61734] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.530178 2023] [authz_core:error] [pid 7972:tid 1208] [client ::1:61735] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.536179 2023] [authz_core:error] [pid 7972:tid 1220] [client ::1:61733] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.537188 2023] [authz_core:error] [pid 7972:tid 1208] [client ::1:61735] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.537188 2023] [authz_core:error] [pid 7972:tid 1216] [client ::1:61734] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.537188 2023] [authz_core:error] [pid 7972:tid 1200] [client ::1:61736] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.538181 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.541191 2023] [authz_core:error] [pid 7972:tid 1200] [client ::1:61736] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.541191 2023] [authz_core:error] [pid 7972:tid 1216] [client ::1:61734] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.542179 2023] [authz_core:error] [pid 7972:tid 1208] [client ::1:61735] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.542179 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.545180 2023] [authz_core:error] [pid 7972:tid 1208] [client ::1:61735] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.545180 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.546183 2023] [authz_core:error] [pid 7972:tid 1216] [client ::1:61734] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.546183 2023] [authz_core:error] [pid 7972:tid 1200] [client ::1:61736] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.549212 2023] [authz_core:error] [pid 7972:tid 1216] [client ::1:61734] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.550179 2023] [authz_core:error] [pid 7972:tid 1200] [client ::1:61736] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.550179 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.550179 2023] [authz_core:error] [pid 7972:tid 1208] [client ::1:61735] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.553247 2023] [authz_core:error] [pid 7972:tid 1216] [client ::1:61734] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.555178 2023] [authz_core:error] [pid 7972:tid 1208] [client ::1:61735] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.555178 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.555178 2023] [authz_core:error] [pid 7972:tid 1200] [client ::1:61736] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.558178 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.559186 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.561179 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.562179 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.564178 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:47:24.565178 2023] [authz_core:error] [pid 7972:tid 1236] [client ::1:61731] AH01630: client denied by server configuration: D:/Kuldeep(Python)/Project/piinfo/staticflies, referer: http://localhost:90/
+[Mon Oct 30 17:55:13.159178 2023] [wsgi:error] [pid 13608:tid 1204] [client ::1:62191] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Tue Oct 31 11:12:43.312981 2023] [wsgi:error] [pid 5736:tid 1224] [client ::1:51034] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Tue Oct 31 11:13:26.558979 2023] [wsgi:error] [pid 5736:tid 1224] [client ::1:51051] teja partap singh \r, referer: http://localhost:90/records/henquiry
+[Tue Oct 31 11:13:26.558979 2023] [wsgi:error] [pid 5736:tid 1224] [client ::1:51051] \r, referer: http://localhost:90/records/henquiry
+[Tue Oct 31 11:13:26.558979 2023] [wsgi:error] [pid 5736:tid 1224] [client ::1:51051] \r, referer: http://localhost:90/records/henquiry
+[Tue Oct 31 11:13:26.558979 2023] [wsgi:error] [pid 5736:tid 1224] [client ::1:51051] \r, referer: http://localhost:90/records/henquiry
+[Tue Oct 31 11:13:26.558979 2023] [wsgi:error] [pid 5736:tid 1224] [client ::1:51051] \r, referer: http://localhost:90/records/henquiry
+[Tue Oct 31 11:26:50.200282 2023] [wsgi:error] [pid 6492:tid 1196] [client 192.168.6.251:51363] Not Found: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Tue Oct 31 11:30:06.493256 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516] Traceback (most recent call last):\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]     response = get_response(request)\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]     response = self.process_request(request)\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]     host = request.get_host()\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]            ^^^^^^^^^^^^^^^^^^\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516]     raise DisallowedHost(msg)\r
+[Tue Oct 31 11:30:06.494233 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Tue Oct 31 11:30:06.622232 2023] [wsgi:error] [pid 20320:tid 1268] [client 192.168.6.251:51516] Bad Request: /\r
+[Tue Oct 31 11:42:33.698344 2023] [wsgi:error] [pid 19168:tid 1256] [client 192.168.6.251:52110] Not Found: /favicon.ico\r, referer: http://192.168.6.251:8051/
+[Tue Oct 31 13:28:48.503358 2023] [wsgi:error] [pid 2360:tid 1216] [client 192.168.6.251:55414] Not Found: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Wed Nov 01 14:34:25.775938 2023] [wsgi:error] [pid 5848:tid 1204] [client ::1:53303] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Wed Nov 01 14:35:25.601916 2023] [wsgi:error] [pid 5848:tid 1232] [client 192.168.6.251:53361] Not Found: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:24.409969 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744] Traceback (most recent call last):\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]     response = get_response(request)\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]     response = self.process_request(request)\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]     host = request.get_host()\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744]     raise DisallowedHost(msg)\r
+[Thu Nov 02 13:07:24.421926 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:07:24.845949 2023] [wsgi:error] [pid 5928:tid 1248] [client 192.168.6.251:63744] Bad Request: /\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750] Traceback (most recent call last):\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]     response = get_response(request)\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]     response = self.process_request(request)\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]     host = request.get_host()\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750]     raise DisallowedHost(msg)\r
+[Thu Nov 02 13:07:24.857952 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:07:24.891970 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63750] Bad Request: /\r
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751] Traceback (most recent call last):\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]     response = get_response(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]                ^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]     response = self.process_request(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]     host = request.get_host()\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]            ^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751]     raise DisallowedHost(msg)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.198922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:07:25.234944 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63751] Bad Request: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933] Traceback (most recent call last):\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]     response = get_response(request)\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]     response = self.process_request(request)\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]     host = request.get_host()\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933]     raise DisallowedHost(msg)\r
+[Thu Nov 02 13:08:57.335971 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:08:57.371939 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63933] Bad Request: /\r
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934] Traceback (most recent call last):\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]     response = get_response(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]                ^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]     response = self.process_request(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]     host = request.get_host()\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]            ^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934]     raise DisallowedHost(msg)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.504922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:08:57.539967 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63934] Bad Request: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940] Traceback (most recent call last):\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]     response = get_response(request)\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]     response = self.process_request(request)\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]     host = request.get_host()\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940]     raise DisallowedHost(msg)\r
+[Thu Nov 02 13:09:00.992927 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:09:01.032969 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63940] Bad Request: /\r
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941] Traceback (most recent call last):\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]     response = get_response(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]                ^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]     response = self.process_request(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]     host = request.get_host()\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]            ^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941]     raise DisallowedHost(msg)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.180923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.228922 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63941] Bad Request: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947] Traceback (most recent call last):\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]     response = get_response(request)\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]     response = self.process_request(request)\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]     host = request.get_host()\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947]     raise DisallowedHost(msg)\r
+[Thu Nov 02 13:09:01.384976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:09:01.430923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63947] Bad Request: /\r
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948] Traceback (most recent call last):\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]     response = get_response(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]                ^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]     response = self.process_request(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]     host = request.get_host()\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]            ^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948]     raise DisallowedHost(msg)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.574924 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.609923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63948] Bad Request: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949] Traceback (most recent call last):\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]     response = get_response(request)\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]     response = self.process_request(request)\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]     host = request.get_host()\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949]     raise DisallowedHost(msg)\r
+[Thu Nov 02 13:09:01.649923 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:09:01.689922 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63949] Bad Request: /\r
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950] Traceback (most recent call last):\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]     response = get_response(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]                ^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]     response = self.process_request(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]     host = request.get_host()\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]            ^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950]     raise DisallowedHost(msg)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.819976 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:01.859923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63950] Bad Request: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951] Traceback (most recent call last):\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]     response = get_response(request)\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]     response = self.process_request(request)\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]     host = request.get_host()\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951]     raise DisallowedHost(msg)\r
+[Thu Nov 02 13:09:02.006923 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:09:02.041997 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:63951] Bad Request: /\r
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952] Traceback (most recent call last):\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]     response = get_response(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]                ^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]     response = self.process_request(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]     host = request.get_host()\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]            ^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952]     raise DisallowedHost(msg)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.187954 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:02.221950 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:63952] Bad Request: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069] Traceback (most recent call last):\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]     response = get_response(request)\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]                ^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]     response = self.process_request(request)\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]     host = request.get_host()\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]            ^^^^^^^^^^^^^^^^^^\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069]     raise DisallowedHost(msg)\r
+[Thu Nov 02 13:09:48.678925 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r
+[Thu Nov 02 13:09:48.712946 2023] [wsgi:error] [pid 5928:tid 1240] [client 192.168.6.251:64069] Bad Request: /\r
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070] Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070] Traceback (most recent call last):\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\core\\handlers\\exception.py", line 55, in inner\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]     response = get_response(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]                ^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\utils\\deprecation.py", line 133, in __call__\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]     response = self.process_request(request)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\middleware\\common.py", line 48, in process_request\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]     host = request.get_host()\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]            ^^^^^^^^^^^^^^^^^^\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]   File "D:\\Kuldeep(Python)\\Project\\env\\Lib\\site-packages\\django\\http\\request.py", line 150, in get_host\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070]     raise DisallowedHost(msg)\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.853955 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070] django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '192.168.6.251:90'. You may need to add '192.168.6.251' to ALLOWED_HOSTS.\r, referer: http://192.168.6.251:90/
+[Thu Nov 02 13:09:48.888952 2023] [wsgi:error] [pid 5928:tid 1220] [client 192.168.6.251:64070] Bad Request: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Fri Nov 03 13:21:39.824472 2023] [wsgi:error] [pid 5352:tid 1244] [client ::1:60642] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Mon Nov 06 12:54:42.033083 2023] [wsgi:error] [pid 6076:tid 1208] [client ::1:50647] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Mon Nov 06 13:20:24.380558 2023] [wsgi:error] [pid 6076:tid 1204] [client 192.168.6.251:53195] Not Found: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Mon Nov 06 14:26:35.859558 2023] [wsgi:error] [pid 6076:tid 1228] [client ::1:59856] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Mon Nov 06 15:19:01.352663 2023] [wsgi:error] [pid 6076:tid 1224] [client 192.168.6.251:65065] Not Found: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Mon Nov 06 15:30:41.436661 2023] [wsgi:error] [pid 6076:tid 1196] [client ::1:50193] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Mon Nov 06 16:05:42.904833 2023] [wsgi:error] [pid 6076:tid 1196] [client ::1:55181] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Mon Nov 06 16:37:36.707211 2023] [wsgi:error] [pid 4904:tid 1228] [client ::1:57090] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Mon Nov 06 17:40:28.012061 2023] [wsgi:error] [pid 4904:tid 1228] [client 192.168.6.251:62168] Not Found: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Mon Nov 06 17:40:37.068061 2023] [wsgi:error] [pid 4904:tid 1228] [client ::1:62189] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Thu Nov 09 11:13:37.672764 2023] [wsgi:error] [pid 5084:tid 1236] [client 192.168.6.251:52449] Not Found: /favicon.ico\r, referer: http://192.168.6.251:90/records/free_demo
+[Thu Nov 09 13:05:12.318722 2023] [wsgi:error] [pid 5084:tid 1232] [client ::1:50179] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Thu Nov 09 16:07:32.974099 2023] [wsgi:error] [pid 5084:tid 1228] [client 192.168.6.251:51482] Not Found: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Thu Nov 09 16:07:38.803118 2023] [wsgi:error] [pid 5084:tid 1228] [client 192.168.6.251:51520] cannot access local variable 'name' where it is not associated with a value\r, referer: http://192.168.6.251:90/
+[Fri Nov 10 12:43:49.699112 2023] [wsgi:error] [pid 5868:tid 1200] [client ::1:52520] Not Found: /favicon.ico\r, referer: http://localhost:90/
+[Tue Nov 14 12:13:41.925420 2023] [wsgi:error] [pid 5940:tid 1192] [client 192.168.6.251:62231] Not Found: /favicon.ico\r, referer: http://192.168.6.251:90/
+[Wed Nov 15 14:06:30.906777 2023] [wsgi:error] [pid 6052:tid 1196] [client ::1:65481] Not Found: /favicon.ico\r, referer: http://localhost:90/

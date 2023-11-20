@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+Select Services
+{% endblock title %}
+
+{% block content %}
+  <div class="page-section px-5 border shadow ">
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Checkbox Prices Calculator</title>
+</head>
+<body>
+    <!-- <h1>Checkbox Prices Calculator</h1>
+    {% for data in data %}
+    <label>
+        <input type="checkbox" id="{{data.module_name}}" class="checkbox" value="{{data.module_price}}"> {{data.module_name}}- {{data.module_price}}
+    </label>
+    {% endfor %}
+
+     -->
+    <div class="page-section font-poppins p-0">
+      <div class="container text-center">
+        <h1 class="h2">Select Services</h1>
+      </div>
+      <div class="tree">
+        {% for module in data %} 
+        <details>
+          <summary>{{module.module_name}}</summary>
+          <ul>
+            {% for items in data %} 
+            <li class="parent ">
+              <input type="checkbox" value="{{items.module_price}}">
+              <label for="{{items.module_name}}">{{items.module_name}} <span style="padding-left: 32px;">({{items.module_price}}rs)</span></label>
+            </li>
+            {% endfor items %}
+          </ul>
+        </details>
+        {% endfor module%}
+      </div>
+      <div class="price-section">
+        <p class="form-control text-center ">Total Price: <span id="totalPrice">0.00</span>rs</p>
+      </div>
+
+      <div class='d-flex justify-content-center align-items-center'>
+        <button type="submit" class="btn bg-primary">Proceed</button>
+      </div>
+    </div>
+    <script>
+        // Get all checkboxes with the 'checkbox' class
+        const checkboxes = document.querySelectorAll('input[type=checkbox]');
+
+        // Add an event listener to each checkbox
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', updateTotalPrice);
+        });
+
+        function updateTotalPrice() {
+            let totalPrice = 0;
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    totalPrice += parseFloat(checkbox.value);
+                }
+            });
+
+            // Display the total price
+            document.getElementById('totalPrice').textContent = totalPrice.toFixed(2);
+        }
+    </script>
+</body>
+</html>
+
+  </div>
+ 
+
+
+{% endblock content %}

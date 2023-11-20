@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Trainee Placements 
+{% endblock title %}
+
+
+{% block content %}
+<div class="container  py-4">
+    <h1 class="h1 text-center p-5 text-muted">PLACED TRAINEE </h1>
+    <div class="row ">
+        {% for data in data %}
+        <div class="col-md-2">
+            <div class="card mb-4 box-shadow trainee-card">
+                <img class="card-img-top w-75 mx-auto" src="{{ data.trainee_image.url }}" alt="{{ data.trainee_name }}">
+                <div class="card-body">
+                    <p class="card-text text-center m-0">{{ data.trainee_name }}</p>
+                    <p class="card-text text-muted text-center m-0">{{ data.trainee_placed_company }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
