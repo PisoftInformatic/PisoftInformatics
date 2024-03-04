@@ -26,7 +26,7 @@ portfolio
 
 class Portfolio(models.Model):
     project_name = models.CharField(max_length=50, help_text="Enter Your Project Name ex. PisotInformatics")
-    project_link = models.CharField(max_length=250, help_text="Enter domain name of Your Project. ex - www.xyz.com", null=True, blank=True)
+    project_link = models.CharField(max_length=250, help_text="Enter domain name of Your Project. ex - www.xyz.com", null=True, blank=True, default = "#no_link")
     device = models.CharField(max_length=50, help_text="Only Choose one --> Mobile, Web or Desktop")
     project_image = models.ImageField( upload_to='portfolio/')
 
@@ -44,3 +44,5 @@ class Gallery(models.Model):
 
     class Meta: 
         verbose_name = 'Gallery Image'
+
+

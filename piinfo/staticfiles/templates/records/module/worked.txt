@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+Select Services
+{% endblock title %}
+
+{% block content %}
+  
+  
+
+     <!-- .page-banner -->
+<div class="page-banner bg-img bg-img-parallax overlay-dark" style="background-image: url(../static/img/bg_image_2.jpg);">
+  <div class="container h-100">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-lg-8">
+        <h1 class="fg-white text-center">Services that we offer</h1>
+        <nav aria-label="breadcrumb">
+          <!-- <ol class="breadcrumb breadcrumb-dark bg-transparent justify-content-center py-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          </ol> -->
+          <p class="text-white bg-transparent font-poppins text-center">Check Out our our modules that we provide to our clients</p>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div> <!-- .page-banner -->
+
+
+    <div class="row m-4 p-4">
+      <div class="col-lg-12">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            Header
+            <code>Account</code>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-lg-12">
+                <form method="post">
+                  {% csrf_token%}
+                  
+          <ul>
+            {% for root_header in root_headers %}
+                <li>
+                    <input type="checkbox" class="header-checkbox" value="{{ root_header.id }}" name=" {{ root_header.name }}">
+                    <label for=" {{ root_header.name }}"> {{ root_header.name }}</label>
+                    
+                    {% with root_header.children.all as level1_children %}
+                        {% if level1_children %}
+                            <ul>
+                                {% for level1_child in level1_children %}
+                                    <li>
+                                        <input type="checkbox" class="header-checkbox" value="{{ level1_child.id }}" name="{{ level1_child.name }}">
+                                        <label for="{{ level1_child.id }}">{{ level1_child.name }}</label>
+                                        <!-- {{ level1_child.name }} -->
+                                        {% with level1_child.children.all as level2_children %}
+                                            {% if level2_children %}
+                                                <ul>
+                                                    {% for level2_child in level2_children %}
+                                                        <li>
+                                                            <input type="checkbox" class="header-checkbox" value="{{ level2_child.id }} " name="{{ level2_child.name }}">
+                                                            <label for="{{ level2_child.name }}">{{ level2_child.name }}</label>
+                                                            {% comment %} {{ level2_child.name }} {% endcomment %}
+                                                            {% with level2_child.children.all as level3_children %}
+                                                                {% if level3_children %}
+                                                                    <ul>
+                                                                        {% for level3_child in level3_children %}
+                                                                            <li>
+                                                                                <input type="checkbox" class="header-checkbox" value="{{ level3_child.id }}" name="{{ level3_child.name }}">
+                                                                                <label for="{{ level3_child.name }}">{{ level3_child.name }}</label>
+                                                                                
+                                                                                <!-- Level 4 -->
+                                                                                {% with level3_child.children.all as level4_children %}
+                                                                                {% if level4_children %}
+                                                                                    <ul>
+                                                                                        {% for level4_child in level4_children %}
+                                                                                            <li>
+                                                                                                <input type="checkbox" class="header-checkbox" value="{{ level4_child.id }}" name="{{ level4_child.name }}">
+                                                                                                <label for="{{ level4_child.name }}">{{ level4_child.name }}</label>
+                                                                                                
+                                                                                            </li>
+                                                                                        {% endfor %}
+                                                                                    </ul>
+                                                                                {% endif %}
+                                                                            {% endwith %}
+                                                                            </li>
+                                                                        {% endfor %}
+                                                                    </ul>
+                                                                {% endif %}
+                                                            {% endwith %}
+                                                        </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            {% endif %}
+                                        {% endwith %}
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    {% endwith %}
+                </li>
+            {% endfor %}
+        </ul>
+        
+        
+        <div class="result-container p-1 m-4 border d-flex flex-column justify-content-center align-items-center shadow font-poppins">
+          <p class="result text-center m-0"><span class="update-price">0.00</span>rs</p>
+        </div>
+
+      <div class="button-container d-flex justify-content-center align-items-center">
+        <button type="submit" class="btn btn-primary m-1 my-3" id="submitButton">Submit</button>
+        <button type="reset" class="btn btn-danger m-1 my-3">Reset</button>
+      </div>
+      
+        </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    
+<script>
+
+$(document).ready(function(){
+  
+      $.fn.checktree = function() {
+          $(':checkbox', this).on('click', function(event) {
+              event.stopPropagation();
+              var clk_checkbox = $(this),
+                  chk_state = clk_checkbox.is(':checked'),
+                  parent_li = clk_checkbox.closest('li'),
+                  parent_uls = parent_li.parents('ul');
+              parent_li.find(':checkbox').prop('checked', chk_state);
+              parent_uls.each(function() {
+                  var parent_ul = $(this);
+                  var parent_state = (parent_ul.find(':checkbox').length === parent_ul.find(':checked').length);
+                  parent_ul.siblings(':checkbox').prop('checked', parent_state);
+              });
+          });
+      };
+  
+  });
+  
+  $(function() {
+      $("ul.checktree").checktree();
+  });
+  </script>
+  
+
+{% endblock content %}

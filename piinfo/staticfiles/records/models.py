@@ -2,17 +2,17 @@ from django.db import models
 
 # Create your models here.
 
+
 class HEnquiry(models.Model):
     name = models.CharField(max_length=50)
     phone = models.CharField(max_length=10)
-    email = models.EmailField( max_length=254)
-    intrested_in = models.CharField(max_length=70)
+    email = models.EmailField(max_length=254)
+    interested_in = models.CharField(max_length=70)  # corrected field name
     education = models.CharField(max_length=100)
-    college = models.CharField( max_length=250)
+    collage = models.CharField(max_length=250)  # corrected field name
 
     def __str__(self):
         return self.name or self.email
-
 
 
 
@@ -23,7 +23,7 @@ class Apply_Job(models.Model):
     position_applied_for = models.CharField(max_length=100)
     qualification = models.CharField(max_length=90)
     address = models.TextField()
-    remarks = models.TextField(  )
+    remarks = models.TextField()
     skills = models.TextField()
     gender = models.CharField(max_length=10)
     experience = models.CharField(max_length=100)
@@ -92,3 +92,33 @@ class modules(models.Model):
     class Meta:
         verbose_name_plural = 'Modules'
         db_table = 'modules'
+        
+
+
+
+class Header(models.Model):
+    id = models.AutoField(primary_key=True)
+    icon = models.CharField(max_length=30)
+    level = models.IntegerField()
+    name = models.CharField(max_length=30)
+    path = models.CharField(max_length=250)
+    priority = models.IntegerField()
+    parent = models.ForeignKey('self', on_delete=models.CASCADE, null=True, blank=True, related_name='children')
+
+    class Meta:
+        verbose_name_plural = 'Headers'
+        db_table = 'header'
+        
+
+
+class Demo_Data(models.Model):
+    company_name = models.CharField(max_length=50)
+    phone = models.CharField(max_length=50)
+    email = models.CharField(max_length=254)
+    module = models.CharField(max_length=50)
+    header_ids= models.CharField(max_length=250)
+
+    class Meta:
+        verbose_name_plural = 'Intrested in Free Demo'
+        
+

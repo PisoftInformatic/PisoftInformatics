@@ -20,7 +20,7 @@ def henquiry(request):
         print(name,'\n\n\n\n')
         
         data = HEnquiry(name = name, phone = phone, email=email, intrested_in = intrest,
-                             education = education, college = college)
+                             education = education, collage = college)
     
         data.save()
         messages.success(request, "Form Submitted Successfully.......")
@@ -114,28 +114,78 @@ def registration(request):
         
     return render(request, 'records/registration.html')
 
-from json import dumps 
+
+
+
+
+
+
+
+
+
+
 
 def free_demo(request):
     # modules = ['finance','education','automobile','health']
 
     data = modules.objects.using('data').all()
     
-    if request.method == 'POST':
+    if request.method== 'POST':
         company_name = request.POST.get('company')
         phone = request.POST.get('phone')
         email = request.POST.get('email')
-        module= request.POST.get('module')
-
-    
+        module = request.POST.get('module')
+        
+        print(company_name, phone, email, module)
+        request.session['user_details'] = {'company_name': request.POST.get('company'), 'phone': request.POST.get('phone'), 'email': request.POST.get('email'), 'phone':request.POST.get('phone'), 'module':request.POST.get('module')}   
+        request.session.save() 
+        print(request.session.items())
+        return redirect('module')
     return render(request, 'records/free_demo.html', {'data':data})
 
 
+
 def module(request):
-    # data = {
-    #     'name' : ['kuldeep', 'arunn','vishu','mandeep'],
-    #     'mobileno': ['9001089265','75784388','8439843984','74374397']
-    # }
-    data = modules.objects.using('data').all()
-    # print(data[0])
-    return render(request, 'records/module/module.html', {'data':data})
+    # Fetch headers from the database
+    #  = Header.objects.all()
+    headers = Header.objects.using('data').all()
+
+
+    # Build the hierarchy
+    header_dict = {}  # Use a dictionary for quick access by ID
+    root_headers = []
+    # print(request.session.items())
+    for header in headers:
+        header_dict[header.id] = header
+
+        if header.parent_id: 
+            parent = header_dict.get(header.parent_id)
+            if parent:
+                children = list(getattr(parent, 'children').all())
+                if not children:
+                    setattr(parent, 'children', children)
+                children.append(header)
+            else:
+                root_headers.append(header)
+        else:
+            root_headers.append(header)
+
+    context = {
+        'root_headers': root_headers,
+    }
+     
+    if request.method == 'POST':
+        selected_items = request.POST.getlist('selected_checkboxes')
+        demo_page_data = request.session.get('user_details', {})
+        print(demo_page_data)
+        combined_data_instance = Demo_Data(
+            company_name=demo_page_data.get('company_name', ''),
+            phone=demo_page_data.get('phone', ''),
+            email=demo_page_data.get('email', ''),
+            module=demo_page_data.get('module', ''),
+            header_ids=selected_items
+        )
+        combined_data_instance.save()
+       
+
+    return render(request, 'records/module/module.html', context)

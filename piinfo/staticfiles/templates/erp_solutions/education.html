@@ -1,76 +1,74 @@
 {% extends "base.html" %}
 {% load static %}
 
-
 {% block title %}
 Education | ERP
 {% endblock title %}
 
 
-
 {% block content %}
-<div class=" c-h-b mt-4 page-section shadow shadow-lg text-center mx-3">
+<div class="container">
+
+<div class=" page-section px-0 text-center ">
   {% for header in header %}
-  <h1 class="h3 p-4">{{header.page_heading}}</h1>
+  <h1 class="h3 p-4  title-custom">{{header.page_heading}}</h1>
   
-  <p class="px-4 font-poppins text-justify">{{header.page_description}}</p>
+  <p class="px-4  text-justify ">{{header.page_description}}</p>
   {% endfor %}
 </div>
 
 
-
  <!-- Carousel Section Start  -->
-<div class="page-section mt-4 shadow  ccarousel d-flex align-content-center justify-content-center custom-bg-b">
-  <div id="carouselExampleInterval" class="carousel slide  w-50 h-50" data-bs-ride="carousel">
+
+ <div class="page-section d-flex align-content-center justify-content-center custom-bg-b">
+  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img class="img-fluid" src="{% static "img/portfolio/recent/pisoftERP.png" %}" alt="Second slide">
+      <div class="carousel-item active" data-interval="10000">
+        <img class="d-block slider-image-size " src="{% static "img/portfolio/recent/pisoftERP.png" %}" alt="First slide" height="300px" width="600px">
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img class="img-fluid" src="{% static "img/portfolio/recent/pisoftERP1.png" %}" alt="Third slide">
+      <div class="carousel-item" data-interval="2000">
+        <img class="d-block slider-image-size " src="{% static "img/portfolio/recent/pisoftERP1.png" %}" alt="Second slide" height="300px" width="600px">
       </div>
       <div class="carousel-item">
-        <img class="img-fluid" src="{% static "img/portfolio/recent/pisoftERP2.png" %} ">
+        <img class="d-block slider-image-size" src="{% static "img/portfolio/recent/pisoftERP2.png" %}" alt="Third slide" height="300px" width="600px">
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    {% comment %} <span class="visually-hidden">Previous</span> {% endcomment %}
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    {% comment %} <span class="visually-hidden">Next</span> {% endcomment %}
-  </button>
-  </div>
+<a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+</a>
+</div>
   <!-- Carousel Section End  -->
+  
+</div>
 
-
-
-
-
-
-<div class="custom-section page-section text-center cbg-ly custom-bg-color">
-  <div class="w-50 m-auto text-center py-3">
+<div class="container-fluid py-5 mt-5 text-center custom-bg-color">
+  <div class="container">
+  <div class=" m-auto text-center ">
     {% for header in  header%}
-    <h2 class="title-section">{{header.heading_for_box_section}}</h2>
+    <h2 class="title-section title-custom">{{header.heading_for_box_section}}</h2>
     {% endfor %}
   </div>
 
 
-<div class="my-section  d-flex flex-wrap p-3 mx-3 justify-content-center align-content-center">
+<div class="my-section  d-flex flex-wrap p-0 mx-3 justify-content-center align-content-center">
   {% for box in box %}
   <div class="card m-3 hover-shadow " style="width: 18rem;">
       <img src="{{box.box_image.url}}" class="service-img card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">{{box.box_title}}</h5>
+        <h5 class="card-title">{{box.box_heading}}</h5>
         <p class="card-text text-justify">{{box.box_description}}</p>
         {% comment %} <a href="#" class="btn btn-primary">Go somewhere</a> {% endcomment %}
       </div>
   </div>
   {% endfor %}
 </div>
+</div>
 
 </div>  
+
 {% endblock content %}
 {% comment %} {% endblock erp_header %} {% endcomment %}

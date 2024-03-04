@@ -14,11 +14,6 @@ urlpatterns = [
     path('gallery', views.gallery, name='gallery'), # Gallery Page
     path('portfolio', views.portfolio, name='portfolio'),
     path('registration', views.registration, name='registration'),
-
-    # Software Development
-    # path('web_applications', views.web_applications, name="web_applications"),
-    # path('desktop_applications', views.desktop_applications, name="desktop_applications"),
-    # path('mobile_applications', views.mobile_applications, name="mobile_applications"),
     path('rough', views.rough, name="rough"),
     path('training', views.training, name="training"),
 

@@ -93,7 +93,7 @@ class Web_Hosting_Box(models.Model):
     # box_image = models.FileField(upload_to='erp_solutions/images',blank=True, help_text="Make sure your all image have same dimensions and have no background for better Appearence.")
     package = models.CharField(max_length=50,blank=True,help_text="Enter your Package name eg. Platinum, Gold or Basic,Advanced")
     server = models.CharField(max_length=50,blank=True,help_text="Package offers Which Server eg.- linux,windows etc.")
-    package_description = HTMLField(max_length=250,blank=True)
+    package_description = HTMLField(max_length=250,blank=True, help_text="more text may create problem in UI. ")
     def __str__(self):
         return self.card.page_heading
     class Meta: 
@@ -122,11 +122,11 @@ class Graphic_Design_Box(models.Model):
     # box_image = models.FileField(upload_to='erp_solutions/images',blank=True, help_text="Make sure your all image have same dimensions and have no background for better Appearence.")
     service = models.CharField(max_length=50,blank=True,help_text="Services tha you offers.. eg.- logo,stationary etc.")
     package = models.CharField(max_length=50,blank=True,help_text="Enter your Package name eg. Platinum, Gold or Basic,Advanced")
-    package_description = HTMLField(max_length=250,blank=True)
+    package_description = HTMLField(max_length=250,blank=True, help_text="more text may create problem in UI. ")
     def __str__(self):
         return self.card.page_heading
     class Meta: 
-        verbose_name_plural= 'Graphic_Design Features and Prices'
+        verbose_name_plural= 'Graphic Design Features and Prices'
     
 
 '''
@@ -148,7 +148,7 @@ class Web_Design_Box(models.Model):
     # box_image = models.FileField(upload_to='erp_solutions/images',blank=True, help_text="Make sure your all image have same dimensions and have no background for better Appearence.")
     package = models.CharField(max_length=50,blank=True,help_text="Enter your Package name eg. Platinum, Gold or Basic,Advanced")
     service = models.CharField(max_length=50,blank=True,help_text="Services tha you offers.. eg.- static, dynamic site, wordress etc.")
-    package_description = HTMLField(max_length=350,blank=True)
+    package_description = HTMLField(max_length=350,blank=True, help_text="Note - Only up to 8 Points allowed    ")
     def __str__(self):
         return self.card.page_heading
     class Meta: 
@@ -175,7 +175,7 @@ class Web_Marketing_Box(models.Model):
     # box_image = models.FileField(upload_to='erp_solutions/images',blank=True, help_text="Make sure your all image have same dimensions and have no background for better Appearence.")
     package = models.CharField(max_length=50,blank=True,help_text="Enter your Package name eg. Platinum, Gold or Basic,Advanced")
     service = models.CharField(max_length=50,blank=True,help_text="Services tha you offers.. eg.- static, dynamic site, wordress etc.")
-    package_description = HTMLField(max_length=350,blank=True)
+    package_description = HTMLField(blank=True, help_text="more text may create problem in UI. ")
     def __str__(self):
         return self.card.page_heading
     class Meta: 
@@ -200,7 +200,7 @@ class Domain_Register_Box(models.Model):
     # box_image = models.FileField(upload_to='erp_solutions/images',blank=True, help_text="Make sure your all image have same dimensions and have no background for better Appearence.")
     package = models.CharField(max_length=50,blank=True,help_text="Enter your Package name eg. Platinum, Gold or Basic,Advanced")
     service = models.CharField(max_length=50,blank=True,help_text="Services tha you offers.. eg.- static, dynamic site, wordress etc.")
-    package_description = HTMLField(max_length=350,blank=True)
+    package_description = HTMLField(max_length=350,blank=True, help_text="more text may create problem in UI. ")
     def __str__(self):
         return self.card.page_heading
     class Meta: 

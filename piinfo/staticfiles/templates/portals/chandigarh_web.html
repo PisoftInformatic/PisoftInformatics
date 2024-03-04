@@ -5,12 +5,20 @@
 Chandigarh Web | Portals
 {% endblock title %}
 
+
+<style>
+  p{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+</style>
+
 {% block content %}
-<div class="page-section c-h-b text-center m-1 py-5">
+<div class="page-section text-center container">
     {% for data in data %}
     
     <div class="page-section py-0">
-        <h1 class="h1 title-section ">
+        <h1 class="h1 title-custom  ">
             {{data.title_of_this_page}}
         </h1>
     </div>
@@ -19,29 +27,27 @@ Chandigarh Web | Portals
    
     
 <!-- Carousel Section Start  -->
-<div class="page-section mt-0 p-2  d-flex align-content-center justify-content-center ">
-  <div id="carouselExampleInterval" class="carousel slide  w-50 h-50" data-bs-ride="carousel">
+<div class="page-section d-flex align-content-center justify-content-center custom-bg-b">
+  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img class="img-fluid" src="{% static "img/portfolio/chandigarh35.png" %}" alt="First slide">
+      <div class="carousel-item active" data-interval="10000">
+        <img class="d-block slider-image-size " src="{% static "img/portfolio/chandigarh35.png" %}" alt="First slide" height="300px" width="600px">
       </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img class="img-fluid" src="{% static "img/portfolio/chandigarh36.png" %}" alt="Second slide">
+      <div class="carousel-item" data-interval="2000">
+        <img class="d-block slider-image-size " src="{% static "img/portfolio/chandigarh36.png" %}" alt="Second slide" height="300px" width="600px">
       </div>
       <div class="carousel-item">
-        <img class="img-fluid" src="{% static "img/portfolio/chandigarh37.png" %}" alt="Third slide">
+        <img class="d-block slider-image-size" src="{% static "img/portfolio/chandigarh37.png" %}" alt="Third slide" height="300px" width="600px">
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
- 
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-  </button>
-  </div>
+<a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+</a>
+<a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+</a>
+</div>
   <!-- Carousel Section End  -->
 
 </div>
@@ -54,8 +60,8 @@ Chandigarh Web | Portals
         {% endcomment %}
 
         {% for data in  data%}
-        <div class="page-section font-poppins">
-            <p class="page-description ">
+        <div class="page-section font-poppins p-0 pb-4 text-justify">
+            <p class="page-description p-0 m-0">
                {{data.page_description | safe}}
             </p>
             <a href="https://{{data.website_domain_link}}" target="_blank">{{data.website_domain_link}}</a>

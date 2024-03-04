@@ -7,46 +7,65 @@ Portfolio
 
 
 {% block content %}
+<style>
+  /* Add your custom styles here */
+  .gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+</style>
 
-  <main>
-    <div class="container-fluid text-center my-2 py-4">
-      <h1 class="h1 title-section">
-        Portfolio
-      </h1>
-    </div>
-    <div class="page-section py-2">
-      <div class="container">
-        <div class="filterable-btn">
-          <button class="btn active" data-filter="*">All</button>
-          <button class="btn" data-filter=".web">Website</button>
-          <button class="btn" data-filter=".mobile">Mobile</button>
-          <button class="btn" data-filter=".desktop">Desktop</button>
+
+
+
+<main>
+  <div class="page-banner bg-img bg-img-parallax overlay-dark"
+    style="background-image: url(../static/img/bg_image_3.jpg); height: 200px;">
+    <div class="container h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-lg-8">
+          <h1 class="fg-white text-center">Portfolio</h1>
+          <nav aria-label="breadcrumb">
+            <p class="text-white bg-transparent font-poppins text-center">Check Out our recent Projects</p>
+          </nav>
         </div>
+      </div>
+    </div>
+  </div> <!-- .page-banner -->
+  
 
-        
-        <div class="grid mt-3 d-flex flex-wrap">
-          {% for data in data %}
-          <div class="grid-item shadow-lg {{data.device}}" style='min-width:250px;'>
-            <div class="portfolio">
-              <a href= "{{data.project_image.url}} " data-fancybox="portfolio">
-                <img src="{{data.project_image.url}}" alt="">
-              </a>
-              <div class="container w-75 text-center m-auto">
-                <a href="https://{{data.project_link}}" class="text-uppercase text-primary">{{data.project_name}} </a>
-              </div>
+  <div class="container py-4 px-0 mb-5">
+    <div class=" container m-auto">
+      <div class="filterable-btn">
+        <button class="btn active" data-filter="*">All</button>
+        <button class="btn" data-filter=".web">Website</button>
+        <button class="btn" data-filter=".mobile">Mobile</button>
+        <button class="btn" data-filter=".desktop">Desktop</button>
+      </div>
+
+
+      <div class="grid d-flex mt-3">
+        {% for data in data %}
+        <div class="grid-item px-2 portfolio-card {{data.device}}">
+          <div class="portfolio">
+            <a href="{{data.project_image.url}} " data-fancybox="portfolio">
+              <img src="{{data.project_image.url}}" alt="">
+            </a>
+            <div class="container w-50 text-center m-auto">
+              <a href="https://{{data.project_link}}" class="text-uppercase fg-logo-color">{{data.project_name}} </a>
             </div>
           </div>
-          {% endfor %}
         </div>
+        {% endfor %}
+      </div>
 
-        </div> <!-- .grid -->
+    </div> <!-- .grid -->
 
-        <!-- <div class="mt-5 text-center">
-          <button class="btn btn-primary">Load More</button>
-        </div> -->
 
-        
-      </div> <!-- .container -->
-    </div> <!-- .page-section -->
-  </main>
-  {% endblock content %}
+
+
+  </div> <!-- .container -->
+  </div> <!-- .page-section -->
+</main>
+{% endblock content %}

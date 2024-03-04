@@ -14,6 +14,8 @@ class Services(models.Model):
         return self.page_heading
     class Meta: 
         verbose_name_plural = 'Service'
+
+        
 class Services_box(models.Model):
     card = models.ForeignKey(Services, default=None, on_delete=models.CASCADE)
     box_image = models.FileField(upload_to='erp_solutions/images', help_text="Make sure your all image have same dimensions and have no background for better Appearence.")

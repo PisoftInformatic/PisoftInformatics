@@ -8,8 +8,8 @@ from django.contrib import messages
 
 # Create your views here.
 def index(request):
-    project_data = Homepage_Recent_project_data.objects.all()
-
+    project_data = Portfolio.objects.all()[:6]
+   
     if request.method == 'POST':
         name = request.POST.get('name')
         email = request.POST.get('email')

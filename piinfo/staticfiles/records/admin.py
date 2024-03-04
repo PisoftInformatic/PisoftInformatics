@@ -3,10 +3,10 @@ from records.models import *
 # Register your models here.
 
 
-class Show_henquiry_data(admin.ModelAdmin):
-    list_filter = ('intrested_in', 'education','college')
-    list_display = ('name', 'phone','email','intrested_in','education','college')
-admin.site.register(HEnquiry, Show_henquiry_data)
+# class Show_henquiry_data(admin.ModelAdmin):
+#     list_filter = ('intrested_in', 'education','collage')
+#     list_display = ('name', 'phone','email','intrested_in','education','collage')
+# admin.site.register(HEnquiry, Show_henquiry_data)
 
 
 class Show_Apply_Job_Data(admin.ModelAdmin):
@@ -27,3 +27,11 @@ class Show_Registrations_Data(admin.ModelAdmin):
     list_filter = ('module', 'training_program')
     list_display = ('name','email', 'phone', 'module','training_program', 'payment_method', 'date')
 admin.site.register(Registration,Show_Registrations_Data)
+
+
+
+# Intrested In Free Demo
+class Free_Demo(admin.ModelAdmin):
+    list_display = ('company_name', 'phone', 'email', 'module', 'header_ids')
+admin.site.register(Demo_Data, Free_Demo)
+

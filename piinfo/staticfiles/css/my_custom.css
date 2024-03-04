@@ -4,9 +4,9 @@
         width: 90% !important;
         height: 100% !important;
     }
-    .navbar{
-        margin-top: 1.5rem !important;
-    }
+    /* .navbar{
+       
+    } */
     .hero-carousel h1 {
         font-size: 1.2rem !important;
     }
@@ -16,8 +16,45 @@
     .image-gallery{
         column-count: 1 !important;
     }
-
-
+    p{
+        padding: 12px !important;
+    }
+    .page-section{
+        padding: 1rem ;
+    }
+    .page-banner.home-banner{
+        max-height: 250px  !important;
+    }
+    .sosmed-button{
+        text-align: center !important;
+    }
+    .footer-text-center{
+        text-align: center !important;
+    }
+    .my-services-items > .card > .card-body{
+        height: 500px !important;
+    }
+    .hero-carousel-item > .img-caption{
+        margin : 4.3rem auto !important;
+        /* height: 330px !important; */
+    }
+    .top-bar-items > .mai-call{
+    padding-left: .2rem!important;
+    }
+    .slider-image-size{
+        height: 180px !important;
+        width: 280px !important;
+        margin: auto;
+    }
+    .trainee-card{
+      
+        max-height: 280px !important ;
+        height: 280px !important;
+        overflow: hidden;
+    }
+    .portfolio-card{
+        width: 330px !important;
+    }
   }
 
 @media only screen and (min-width: 600px ) and (max-width: 800px){
@@ -27,6 +64,30 @@
 }
 
 
+
+/* Navbar links */
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color: #393185 !important;
+}
+.nav-link:hover{
+    color: #393185 !important;
+    /* background-color: #421d75; */
+    text-decoration: overline 2px ;
+}
+
+.top-bar-items > .mai-call{
+    padding-left: 20px;
+
+}
+.page-section{
+    /* padding: 20px 50px 20px 50px; */
+    padding: 1rem;
+}
+
+#services {
+    background: #474747 url(../img/services/bg_services.png) !important;
+    background-size: cover !important;
+}
 
 .service-img{
     height: 90px;
@@ -39,23 +100,48 @@
 
 .hover-shadow{
     transition: all 0.2s ease-in;
-    border-radius: 23px !important; 
-    /* background-color: #e4e6dcd2; */
-    background-color: #fbf9f6;
-     /* background-image: linear-gradient(177deg, #f7f8f3d2 13%, rgb(209, 255, 255) 74%); */
-     /* background-color: rgb(230, 234, 241); */
-    color: rgb(0, 0, 0);
-    /* padding: 1.1rem !important; */
-    /* height: 1.5rem; */
-    box-shadow: #8d9196 5px 1px 10px; 
-    
+    /* border-radius: 23px !important;  */
+    color: rgb(0, 0, 0);    
 } 
 
 .hover-shadow:hover{
-    box-shadow: rgb(139, 138, 138) 12px 5px 20px;
+    /* box-shadow: rgb(139, 138, 138) 10px 10px 10px; */
+    box-shadow: #696974fb  10px 10px 10px ;
 
 }
 
+/* .card-body{
+    border: .1px solid grey;
+} */
+
+.card-description{
+    font-size: 16px !important;
+    color: black !important;
+
+}
+.card-description>ul{
+    padding-left: 16px !important;
+}
+
+.card-description>p{
+    font-size: 14px !important;
+    text-align: left;
+    padding: 10px 0px 0px 0px !important;
+    margin: 0px !important;
+    color: rgb(20, 20, 20);
+}
+.card-description > ul > li{
+    font-size: 14px !important;
+    text-align: left;
+}
+
+.card-text{
+    font-size: 16px !important;
+}
+p{
+    font-size: 16px !important;
+    color: #000000 !important;
+}
 
 
 .card{
@@ -66,8 +152,29 @@
     border: none;
 }
 
-.card-text{
-    font-family: 'Poppins', 'arial' !important;
+/* .card-text{
+    font-family: 'Open Sans', sans-serif;
+} */
+
+/* .card-description */
+
+/* .my-services-items > .card > .card-body{
+height:500px ;
+} */
+
+.job-btn{
+    position:absolute;
+    bottom:0;
+    left: 60px    ;
+    /* border: none; */
+}
+.job-btn:hover{
+    background-color: #262264 !important;
+    border: none;
+}
+
+.fs-12 .fs-12>p{
+    font-size: 12px;
 }
 
 .my-services{
@@ -125,12 +232,14 @@
 /* 
 navbar
 */
+
  .nav-item{
     padding: 0 !important; 
 }
 .nav-link{
     padding: .7rem !important;
 }
+
 
 /* 
 carousel slider 
@@ -150,17 +259,14 @@ carousel slider
     background-color: transparent !important;
 }
 
-
+.button.owl-prev{
+    background-color: #5c5794 !important;
+}
 
 .hero-carousel h1 {
     font-size: 2.2rem ;
 }
 
-
-
-.t09{
-    font-size: 0.9rem;
-}
 
 
 
@@ -172,14 +278,11 @@ carousel slider
     box-shadow: #d0d2d6 1px 5px 16px 8px !important;
 }
 
-.font-poppins{
-    font-family: 'Poppins';
-    text-align: justify;
-}
-.how-section-text>p{
-    font-family: 'Poppins';
-}
+.gd{
+    /* background: linear-gradient(135deg, #add8e6, #87ceeb); */
+    background: linear-gradient(135deg, #f0f0f0, rgb(216, 234, 248));
 
+}
 
 .cbg-ly{
 background-color: #f1dfdf7d !important;
@@ -193,13 +296,6 @@ background-color: #f1dfdf7d !important;
 }
 
 
-/* 
-Index technologies
-*/
-.technologies{
-    /* background-color: rgb(205, 209, 212) !important; */
-}
-
 
 /* 
 Footer
@@ -212,19 +308,23 @@ Footer
     line-height: 1.5rem;
 }
 
-.fc{
-    /* color: rgb(87, 87, 87) !important; */
-    color: white  !important;
-}
+
 
 .footer-bg-color{
     /* background-color: #000000 !important; */
-    background-image: linear-gradient(315deg, #000000ec 50%, #1b1c1fdc  74%) !important
+    background-image: linear-gradient(315deg, #000000ec 50%, #1b1c1fdc  74%) 
     /* background-color: rgb(206, 211, 243) !important; */
 }
 
 .footer-copyright{
-    background-image: linear-gradient(300deg, #646b8a, #7178a0);
+    /* background-image: linear-gradient(300deg, #646b8a, #7178a0); */
+    background-image: linear-gradient(300deg, #1c1d21, #202123);
+}
+.fc{
+    color: white !important;
+}
+.sosmed-button{
+    text-align: right ;
 }
 
 
@@ -235,12 +335,18 @@ Placed Trainee
 
 .trainee-card{
     border: 1px solid rgb(202, 202, 202) !important;
-    min-height: 300px;
-    max-height: 300px;
+    /* min-height: 250px !important; */
+    max-height: 250px ;
+    height: 250px;
     overflow: hidden;
 }
 
-
+.card-title{
+        font-size: 15px;  
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        color: #4e4e4e;
+}
 
 
 
@@ -255,17 +361,19 @@ Placed Trainee
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #c7c2e2b0;
+    /* background-color: rgba(55, 87, 181, 0.85) ; */
+    background-color:   #393185a1;
   }
   
   .custom-container:hover:hover .custom-overlay {
     opacity: 1;
+    border-radius: 23px !important;
     
   }
   
   .custom-text {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -275,7 +383,34 @@ Placed Trainee
     text-align: center;
     
   }
+  .project-button:hover{
+    background-color: rgba(255, 255, 255, 0.604) !important;
+    color: black !important;
+    box-shadow: 6px 6px 16px;
+  }
  
+  .lead{
+    font-size: 16px !important;
+  }
+  .fs-14-li>ul>li{
+    font-size: 14px !important;
+    /* text-align: justify; */
+}
+.fs-14>ul>li{
+    font-size: 14px;
+    /* text-align: justify; */
+}
+.fs-14>p{
+    font-size: 14px;
+    text-align: justify;
+}
+/* .fs-16>ul>li{
+    font-size: 16px;
+} */
+.fs-16>p{
+      text-align: justify;
+    font-size: 16px;
+  }
 
   /* 
   footer
@@ -318,42 +453,218 @@ Free Demo
 
 
 
+.title-custom{
+     /* max-width: 900px !important; */
+     font-size: 30px;
+     /* font-weight: 600; */
+     color: #485464 ;
+}
+
+/* Technology on Home Page */
+
+#feature {
+    background: #f2f2f2!important;
+    padding-bottom: 0px;
+  }
+  
+  .features{
+    padding: 0;
+  }
+  
+  .feature-wrap {
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  
+  .feature-wrap h2{
+    margin-top: 12px;
+    font-size:15px;
+  }
+  
+  .feature-wrap .pull-left {
+    margin-right: 25px;
+  }
+  
+  .feature-wrap i{
+    font-size: 25px;
+    height: 50px;
+    width: 52px;
+    margin: 3px;
+    border-radius: 100%;
+    line-height: 45px;
+    text-align:center;
+    /* background: rgb(50, 118, 243); */
+    background: #393185;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    box-shadow: inset 0 0 0 5px #f2f2f2;
+    -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+    float: left;
+    margin-right: 25px;
+  }
+  .feature-wrap1 i{
+      font-size: 45px;
+      height: 100px;
+      width: 100px;
+      margin: 20px 0px 0px 10px;
+      border-radius: 100%;
+      line-height: 90px;
+      text-align: center;
+      background: rgb(155, 197, 245);
+      color: #fff;
+      border: 3px solid #ffffff;
+      box-shadow: inset 0 0 0 5px #f2f2f2;
+      -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
+      -webkit-transition: 500ms;
+      -moz-transition: 500ms;
+      -o-transition: 500ms;
+      transition: 500ms;
+      
+      margin-right: 5px;
+  }
+  .feature-wrap i:hover {
+    background: #393185c9;
+    color: #fff;
+    box-shadow: inset 0 0 0 5px #393185;
+    -webkit-box-shadow: inset 0 0 0 5px #4d43a3d1;
+  -moz-box-shadow: inset 0 0 0 5px #7061fb;
+    border: 3px solid #a79dff;
+  }
+  .feature-wrap1 i:hover {
+    background: #393185c9;
+    color: #fff;
+    box-shadow: inset 0 0 0 5px #393185;
+    -webkit-box-shadow: inset 0 0 0 5px #4d43a3d1;
+  -moz-box-shadow: inset 0 0 0 5px #7061fb;  
+  border: 3px solid #a79dff;
+  }
+  
+  .about-img {
+transform: none !important;  
+-webkit-transform: none;
+box-shadow: none;
+border-radius: 12px; 
+/* border: 2px solid salmon    ; */
+
+}
+
+
+
+.navbar-light .navbar-nav .nav-link .active{
+    color: #000000;
+}
+.dropdown-item.active, .dropdown-item:active{
+    background-color: #393185 !important;
+}
+.nav-link.active{
+    text-decoration: 2px overline ;
+}
+.bg-logo-color{
+    background-color: #393185 !important;
+}
+.fg-logo-color{
+    color: #393185 !important;
+}   
+
+
+
+
+.btn-bottom{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 4rem;
+}
+
+
+.no-list>ul>li{
+    list-style: none;
+    padding: 5px 0px;
+    text-align: left;
+    line-height: 2s0px;
+}
+
+.line-height>ul>li{
+line-height: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-next  {
+    /* background-color: #5c5794; */
+    border: 2px solid #393185;
+    background-color: transparent;
+}
+.owl-carousel .owl-nav button.owl-prev  {
+    /* background-color: #5c5794; */
+    border: 2px solid #393185      ;
+    background-color: transparent;
+}
+
+.nav-pills .nav-link.active,  .nav-pills .show > .nav-link {
+    background-color: #5c5794 !important;
+}
+
+
+.slide{
+    margin: auto;
+}
+
+.btn-primary{
+    background-color: #393185  !important;
+}
+
 
 /* 
-Tree View 
+Home page main slider 
+*/
+.home-banner{
+    height: 350px !important;
+}
+.hero-carousel-item > .img-caption{
+    margin : 6.3rem auto;
+    /* height: 330px !important; */
+}
+/* 
+Collage carsoul arrows 
 */
 
-
-ul li {
-    position: relative;
-    list-style: none;
+.control-prev-btn, .control-next-btn{
+    background-color: transparent !important;
+    color: white !important;
+    font-size: 25px;
+    box-shadow: none !important;
+    width: 17px !important;
+    margin: 0px !important;
+}
+.slider{
+    padding: 0px !important;
+}
+.my-services-items{
+    margin: 5px !important;
 }
 
-li.parent:before, li.parent:after{
-    content: '';
-    position: absolute;
-    left: -28px;
-    background-color: blue;
-
+.services-card{
+    width: 355px !important;
+    height: 290px !important;
+    margin: 2px;
 }
 
-li:before{
-    height: 1px ;
-    width: 16px;
-    top: 12px;
-
+.career-card{
+    height: 500px;
 }
 
-li:after{
-    height: 26px;
-    width: 1px ;
-    top: 14px;
-}
-li.parent:after{
-    height: 100%;
-    top: 12px;
+/* 
+home page contact us
+*/
+
+.portfolio-card{
+    width: 360px !important;
 }
 
-li.parent:last-child:after{
-    content: '';
-}
+/* .portfolio-card{
+    width: 400px;
+} */

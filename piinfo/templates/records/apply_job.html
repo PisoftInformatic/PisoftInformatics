@@ -5,15 +5,38 @@ Apply for Job
 {% endblock title %}
 
 {% block content %}
-  <main>
+
+
+<main>      
+<div class="page-banner bg-img bg-img-parallax overlay-dark" style="background-image: url(../static/img/bg_image_3.jpg);">
+  <div class="container h-100">
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-lg-8">
+        <h1 class="fg-white text-center">Job Application</h1>
+        <nav aria-label="breadcrumb">
+          <!-- <ol class="breadcrumb breadcrumb-dark bg-transparent justify-content-center py-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          </ol> -->
+          <p class="text-white bg-transparent text-center">Fill up this form.</p>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div> <!-- .page-banner -->
+
+
     <div class="page-section">
       <div class="container">
-        <div class="text-center">
-          <h2 class="title-section mb-3">Job Application</h2>
-          <p>Fill out this form with your correct details we will contact you soon if we find a perfect match.</p>
-         
-        </div>
-        <div class="page-section">
+        {% if messages %}
+        <ul class="messages" style='list-style:none;'>
+          {% for message in messages %}
+          <li {% if message.tags %} role='alert' class="alert alert-success text-center {{ message.tags }} " {% endif %}>
+            {{ message }}
+           </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        <div class="page-section p-3">
           <form method="post" enctype="multipart/form-data" >
             {% csrf_token %}
             <div class="form-row">
@@ -114,7 +137,7 @@ Apply for Job
               </div>
             </div>
             
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn bg-logo-color text-white">Submit</button>
           </form>
         </div>
       </div> <!-- .container -->

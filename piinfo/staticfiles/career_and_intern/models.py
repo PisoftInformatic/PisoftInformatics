@@ -38,6 +38,6 @@ class Career_With_Us(models.Model):
 class Traniee_with_us(models.Model):
     trainee_name = models.CharField(max_length=50)
     trainee_placed_company = models.CharField(max_length=100)
-    trainee_image = models.ImageField( upload_to='career_and_intern/trainee_with_us')
+    trainee_image = models.ImageField( upload_to='career_and_intern/trainee_with_us', blank=True, default="/no-image.jpg")
     class Meta:
         verbose_name_plural = "Trainee With us"

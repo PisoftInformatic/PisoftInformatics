@@ -3,15 +3,15 @@
 {% block title %}Mobile Application{% endblock title %}
 
 {% block content %}
-<div class="page-section how-section p-4 m-1">
+<div class="container pb-5 mx-auto  my-4"> 
     {% for display in data %}
     <div class="row">
         <div class="col-md-4 how-img m-auto">
             <img src="/static/img/services/software_development/mobile.jpg" class=" img-fluid" alt=""/>
         </div>
-        <div class="col-md-7 px-5 py-4 how-section-text">
-            <h4>{{display.heading}}</h4>
-            <div class='font-poppins'>
+        <div class="col-md-8 px-5 py-2  "  >
+            <h4 class="title-custom">{{display.heading}}</h4>
+            <div class='font-poppins text-justify'>
                 <p class="text-muted ">{{display.description | safe}}</p>
             </div>
         </div>

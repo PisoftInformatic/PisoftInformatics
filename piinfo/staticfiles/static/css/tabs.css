@@ -1,0 +1,64 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:800&display=swap";
+.tab-container{
+    border-radius: 12px;
+    /* border-top: 12px ; */
+   
+}
+
+.v-tabs > .nav-item:hover{
+    background-color:#67629c60;
+    
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    color: whitesmoke !important;  
+
+}
+.v-tabs > .nav-item > .nav-link{
+    color: rgb(75, 72, 72);
+}
+
+.tab-heading{
+    font-size: 1.5rem;
+}
+
+/* cplaced trainee slider */
+
+ 
+/* .overlay{
+		position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.45);
+    top: 0;
+		display: none;
+}
+.overlay.active{
+	display: block;
+}
+ @media only screen and (max-width: 420px) {
+	 .slider {
+		 padding: 0;
+	}
+	 .slide {
+		 padding: 16px 10px;
+	}
+	 .slide img {
+		 margin: 0;
+	}
+	 .control-prev-btn {
+		 top: 37%;
+	}
+	 .control-next-btn {
+		 top: 37%;
+	}
+}
+  */
+
+
+
+/* 
+Placed Trainee Carsoul Index Page
+*/
+
+

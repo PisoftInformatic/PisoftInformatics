@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-5=kug6lfb+*l1_$g_6t59-5aq%wp79_a(mcgr(xti&hr6a___9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','192.168.6.251']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','192.168.6.251','pisoft17.pythonanywhere.com']
 
 
 # Application definition
@@ -49,6 +49,7 @@ EXTERNAL_APPS = [
     'portals',
     'web_services',
     'softwaredev',
+    'WebsiteProfileInfo'
 ]
 INSTALLED_APPS += EXTERNAL_APPS
 
@@ -78,6 +79,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'WebsiteProfileInfo.context_processor.footer_data',
             ],
         },
     },
@@ -163,14 +165,19 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
-
-SESSION_COOKIE_AGE = 300 # 5 minutes. "1209600(2 weeks)" by default
-SESSION_SAVE_EVERY_REQUEST = True # "False" by default
+# SESSION_COOKIE_AGE = 300 # 5 minutes. "1209600(2 weeks)" by default
+# SESSION_SAVE_EVERY_REQUEST = True # "False" by default
 
 # Jazmin settings
 
 JAZZMIN_SETTINGS = {
-    'site_logo' : 'static/img/icons/pisoft_logo.jpeg',
+    'site_logo' : '/img/pisoft_logo.jpeg',
 
 }
+
+# TINYMCE_DEFAULT_CONFIG = {
+# "height": "320px",
+# "width": "460px",
+# }

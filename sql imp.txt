@@ -1,0 +1,2 @@
+INSERT INTO  [kuldeep].[dbo].[header]
+SELECT * FROM [master_erp].[dbo].[header];
